@@ -3,5 +3,13 @@
     "target": "http://localhost:5110",
     "secure": false,
     "changeOrigin": true
+  },
+  "/functions": {
+    "target": "http://localhost:7071",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/functions": "/api"
+    }
   }
 }
