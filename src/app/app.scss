@@ -1,0 +1,45 @@
+:host {
+  display: block;
+  min-height: 100dvh;
+  font-family: Inter, 'Segoe UI', sans-serif;
+  color: #18181b;
+}
+
+main {
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background: #f4f4f5;
+}
+
+.card {
+  width: min(32rem, 100%);
+  padding: 2.5rem;
+  background: #ffffff;
+  border: 1px solid #e4e4e7;
+  border-radius: 1rem;
+}
+
+.eyebrow {
+  margin: 0 0 0.75rem;
+  color: #71717a;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.75rem;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+}
+
+.status {
+  margin: 1rem 0 0;
+  color: #3f3f46;
+  line-height: 1.5;
+}
